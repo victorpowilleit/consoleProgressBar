@@ -1,5 +1,6 @@
 {
   "name": "consoleProgressBar",
+  "type": "module",
   "version": "1.0.0",
   "main": "progressBar.js",
   "description": "A simple and versatile javascript progress bar for using in terminal and console",
