@@ -36,7 +36,7 @@ export function showProgressBar(bruteProgress, length = 20, stepsToPrint = 100, 
         case 6: block = '\u258a'; break
         case 7: block = '\u2589'; break
         case 8: block = '\u2588'; break
-        default: block = ''; break
+        default: block = ' '; break
     }
     SPB_.bar.fill(' ')
     SPB_.bar.fill('\u2588', 0, completedBlocks)
