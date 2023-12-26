@@ -17,7 +17,7 @@ It receives 4 paramenter, explained bellow.
  It's default value is set to 100, so one print for every 1% of the bar. Larger numbers make the bar progress smoother, while smaller values may feel "bumpy".
 
 ### index (optional):
- This last value was included for cases where more than a single bar is placed at the same time (for handling sub-processes, for example, or deal with async processes). It simply defines a number (an index) to save the values used by each bar, so they won`t mess up.
+ This last value was included for cases where more than a single bar is placed at the same time (for handling sub-processes, for example, or deal with async processes). It simply defines a number (an index) to save the values used by each bar, so they won`t mess up - however it's not recommended at this point to use this, as it mantains de data properly but cant't yet show more than a single active bar at once.
 
 ## Usage
  Call showProgressBar as the first line inside your iteration cycle and then, as it can be really tricky to get a loop to properly send a "1" when it's life-cycle is over, is recommended to call it once again right after the end of it's iterations passing (1) as the bruteProgress param, granting then it will surely get to end.
