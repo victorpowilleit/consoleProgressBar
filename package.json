@@ -1,0 +1,12 @@
+{
+  "name": "consoleProgressBar",
+  "version": "1.0.0",
+  "main": "progressBar.js",
+  "description": "A simple and versatile javascript progress bar for using in terminal and console",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["progress", "bar", "library"],
+  "author": "Victor Powilleit",
+  "license": "MIT"
+}
